@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: gleam-app
+    image: gleam-app:latest
+    build:
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - "${APP_PORT:-10000}:8000"
+    networks:
+      - gleam
+networks:
+  gleam:
