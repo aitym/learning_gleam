@@ -1,0 +1,12 @@
+name = "learning_gleam"
+version = "1.0.0"
+description = "An experimental repository for learning and exploring the Gleam programming language"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "aitym", repo = "learning_gleam" }
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+wisp = ">= 1.8.0 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
