@@ -1,5 +1,5 @@
-import app/web
 import gleam/string_tree
+import web_server/web
 import wisp.{type Request, type Response}
 
 pub fn handle_request(req: Request) -> Response {

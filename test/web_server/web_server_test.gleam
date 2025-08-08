@@ -1,5 +1,5 @@
-import app/router
 import gleeunit/should
+import web_server/router
 import wisp/testing
 
 pub fn app_test() {
